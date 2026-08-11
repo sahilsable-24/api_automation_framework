@@ -1,5 +1,6 @@
 import pytest
 
+#smoke
 @pytest.mark.smoke
 def test_delete_user_returns_204(api_client):
     response = api_client.delete("/users/2")
