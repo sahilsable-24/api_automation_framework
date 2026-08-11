@@ -11,3 +11,12 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
 ]
+
+[tool.pytest.ini_options]
+markers = [
+    "smoke: critical happy-path checks across core endpoints",
+    "regression: full CRUD and schema coverage",
+    "negative: invalid input, missing auth, and error-handling scenarios",
+]
+
+addopts = "--html=reports/report.html --self-contained-html"
