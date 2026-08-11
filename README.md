@@ -1,6 +1,6 @@
 # API Test Automation Framework
 
-![API Tests](https://github.com/sahilsable-24/api_automation_framework/actions/workflows/api-tests.yml/badge.svg)
+![API Tests](https://github.com/sahilsable-24/api_automation_framework/actions/workflows/api_tests.yml/badge.svg)
 
 A REST API test automation framework built with **Python, Requests, and Pytest**, targeting [reqres.in](https://reqres.in), a public REST API. Covers full CRUD coverage, JSON schema validation, negative/error-case testing, and a CI pipeline that runs automatically on every push.
 
